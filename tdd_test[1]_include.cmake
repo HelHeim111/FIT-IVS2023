@@ -1,0 +1,5 @@
+if(EXISTS "/home/helheim/FIT/FIT-IVS2023/tdd_test[1]_tests.cmake")
+  include("/home/helheim/FIT/FIT-IVS2023/tdd_test[1]_tests.cmake")
+else()
+  add_test(tdd_test_NOT_BUILT tdd_test_NOT_BUILT)
+endif()
