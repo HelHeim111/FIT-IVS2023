@@ -14,4 +14,6 @@ add_test( HashMap.Get /home/helheim/FIT/FIT-IVS2023/white_box_test [==[--gtest_f
 set_tests_properties( HashMap.Get PROPERTIES WORKING_DIRECTORY /home/helheim/FIT/FIT-IVS2023 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
 add_test( HashMap.Pop /home/helheim/FIT/FIT-IVS2023/white_box_test [==[--gtest_filter=HashMap.Pop]==] --gtest_also_run_disabled_tests)
 set_tests_properties( HashMap.Pop PROPERTIES WORKING_DIRECTORY /home/helheim/FIT/FIT-IVS2023 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( white_box_test_TESTS HashMap.Ctor HashMap.Reserved HashMap.Put HashMap.Size HashMap.Capacity HashMap.Contains HashMap.Get HashMap.Pop)
+add_test( HashMap.Remove /home/helheim/FIT/FIT-IVS2023/white_box_test [==[--gtest_filter=HashMap.Remove]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HashMap.Remove PROPERTIES WORKING_DIRECTORY /home/helheim/FIT/FIT-IVS2023 SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( white_box_test_TESTS HashMap.Ctor HashMap.Reserved HashMap.Put HashMap.Size HashMap.Capacity HashMap.Contains HashMap.Get HashMap.Pop HashMap.Remove)

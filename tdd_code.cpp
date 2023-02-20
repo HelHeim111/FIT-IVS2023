@@ -16,34 +16,59 @@
 
 #include "tdd_code.h"
 
+/*int myFindNodeId(std::vector<Node*>vec, size_t id) {
+    for(int i = 0; i < vec.size(); i++) {
+        if(vec[i]->id == id){
+            return i;
+        }
+    }
+    return -1;
+}*/
 
 Graph::Graph(){}
 
 Graph::~Graph(){}
 
 std::vector<Node*> Graph::nodes() {
-    std::vector<Node*> nodes;
-
-    return nodes;
+    return myNode;
 }
 
 std::vector<Edge> Graph::edges() const{
-    std::vector<Edge> edges;
-
-    return edges;
+    return myEdge;
 }
 
 Node* Graph::addNode(size_t nodeId) {
+    if(Node* tmpNode = (Node*)malloc(sizeof(struct Node))){
+        tmpNode->id = nodeId;
+        tmpNode->color = 0;
+        myNode.push_back(tmpNode);
+        return tmpNode;
+    }
     return nullptr;
 }
 
 bool Graph::addEdge(const Edge& edge){
+    if(edge.a != edge.b) {
+        myEdge.push_back(edge);
+        return true;
+    }
     return false;
-
 }
 
 void Graph::addMultipleEdges(const std::vector<Edge>& edges) {
-
+    for(int i = 0; i < edges.size(); i++) {
+        bool permission = true;
+        if(edges[i].a != edges[i].b) {
+            for(int j = 0; j < myEdge.size(); j++){
+                if(edges[i].operator==(myEdge[j])) {
+                    permission = false;
+                    break;
+                }
+            }
+            //if(permission)
+                //myEdge.push_back(edges[i]);
+        }
+    }
 }
 
 Node* Graph::getNode(size_t nodeId){
@@ -80,6 +105,8 @@ void Graph::coloring(){
 }
 
 void Graph::clear() {
+    myNode.clear();
+    myEdge.clear();
 }
 
 /*** Konec souboru tdd_code.cpp ***/

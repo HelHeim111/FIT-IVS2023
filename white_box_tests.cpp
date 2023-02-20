@@ -111,4 +111,14 @@ TEST(HashMap, Pop) {
     hash_map_dtor(tmpHash);
 }
 
+TEST(HashMap, Remove) {
+    hash_map* tmpHash = hash_map_ctor();
+    hash_map_state_code_t var = hash_map_remove(tmpHash, "key1");
+    ASSERT_TRUE(var == KEY_ERROR);
+    hash_map_put(tmpHash, "key1", 44);
+    var = hash_map_remove(tmpHash, "key1");
+    ASSERT_TRUE(var == OK);
+    hash_map_dtor(tmpHash);
+}
+
 /*** Konec souboru white_box_tests.cpp ***/

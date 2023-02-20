@@ -128,7 +128,7 @@ TEST(TreeAxioms, Axiom3) {
     tmpTree->GetLeafNodes(leaf);
     int blackLength = -1;
     for(Node_t* i: leaf) {
-        int blackLengthTmp;
+        int blackLengthTmp = 0;
         Node_t* tmpNode = i->pParent;
         while(tmpNode != root){
             if(tmpNode->color != 0) {
@@ -142,7 +142,6 @@ TEST(TreeAxioms, Axiom3) {
         else {
             ASSERT_TRUE(blackLength == blackLengthTmp);
         }
-        blackLengthTmp = 0;
     }
     delete(tmpTree);
 }

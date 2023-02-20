@@ -85,7 +85,7 @@ public:
  */
 class Graph{
 public:
-
+    
     /**
      * @brief konstruktor prázdného grafu
      */
@@ -203,7 +203,8 @@ public:
 
 protected:
     // doplňte vhodné struktury
-
+    std::vector<Node*> myNode;
+    std::vector<Edge> myEdge;
 };
 
 #endif // TDD_CODE_H_
