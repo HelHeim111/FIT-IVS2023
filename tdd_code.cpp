@@ -30,27 +30,52 @@ Graph::Graph(){}
 Graph::~Graph(){}
 
 std::vector<Node*> Graph::nodes() {
-    return myNode;
+    std::vector<Node*> nodes;
+    nodes = myNode;
+    return nodes;
 }
 
 std::vector<Edge> Graph::edges() const{
-    return myEdge;
+    std::vector<Edge> edges;
+    edges = myEdge;
+    return edges;
 }
 
 Node* Graph::addNode(size_t nodeId) {
-    if(Node* tmpNode = (Node*)malloc(sizeof(struct Node))){
-        tmpNode->id = nodeId;
-        tmpNode->color = 0;
-        myNode.push_back(tmpNode);
-        return tmpNode;
+    bool exists = true;
+    for(int i = 0; i < myNode.size(); i++){
+        if(myNode[i]->id == nodeId) {
+            exists = false;
+            break;
+        }
+    }
+    if(exists){
+        if(Node* tmpNode = (Node*)malloc(sizeof(struct Node))){
+            tmpNode->id = nodeId;
+            tmpNode->color = 0;
+            myNode.push_back(tmpNode);
+            return tmpNode;
+        }
     }
     return nullptr;
 }
 
 bool Graph::addEdge(const Edge& edge){
+    bool permission = true;
     if(edge.a != edge.b) {
-        myEdge.push_back(edge);
-        return true;
+        for(int j = 0; j < myEdge.size(); j++){
+                if(edge.operator==(myEdge[j])) {
+                    permission = false;
+                    break;
+                }
+            }
+            if(permission){
+                addNode(edge.a);
+                addNode(edge.b);
+                myEdge.push_back(edge);
+                return true;
+            }
+        
     }
     return false;
 }
@@ -65,43 +90,185 @@ void Graph::addMultipleEdges(const std::vector<Edge>& edges) {
                     break;
                 }
             }
-            //if(permission)
-                //myEdge.push_back(edges[i]);
+            if(permission){
+                addNode(edges[i].a);
+                addNode(edges[i].b);
+                myEdge.push_back(edges[i]);
+            }
         }
     }
 }
 
 Node* Graph::getNode(size_t nodeId){
+    for(auto vec : myNode) {
+        if(vec->id == nodeId){
+            return vec;
+        }
+    }
     return nullptr;
 }
 
 bool Graph::containsEdge(const Edge& edge) const{
+    for(auto vec : myEdge) {
+        if(edge.operator==(vec)) {
+            return true;
+        }
+    }
     return false;
 }
 
 void Graph::removeNode(size_t nodeId){
+    bool exists = false;
+    for(int i = 0; i < myNode.size(); i++) {
+        if(myNode[i]->id == nodeId) {
+            myNode.erase(myNode.begin() + i);
+            exists = true;
+            break;
+        }
+    }
+    if(!exists) {
+        throw std::out_of_range("");
+    }
+
+     
+    while(true) {
+        bool completed = true;
+        for(auto vec : myEdge) {
+            if(vec.a == nodeId || vec.b == nodeId) {
+                removeEdge(vec);
+                completed = false;
+                break;
+            }
+        }
+        if(completed)
+            break;
+    }
 }
 
 void Graph::removeEdge(const Edge& edge){
+    bool exists = false;
+    for(int i = 0; i < myEdge.size(); i++) {
+        if(edge.operator==(myEdge[i])) {
+            myEdge.erase(myEdge.begin() + i);
+            exists = true;
+            break;
+        }
+    }
+    if(!exists) {
+        throw std::out_of_range("");
+    }
 }
 
 size_t Graph::nodeCount() const{
-    return 42;
+    return myNode.size();
 }
 
 size_t Graph::edgeCount() const{
-    return 42;
+    return myEdge.size();
 }
 
 size_t Graph::nodeDegree(size_t nodeId) const{
-    return 42;
+    bool exists = false;
+    for(auto vec : myNode) {
+        if(vec->id == nodeId){
+            exists = true;
+            break;
+        }
+    }
+    if(!exists){
+        throw std::out_of_range("");
+    }
+
+    size_t degree = 0;
+    for(auto vec : myEdge) {
+        if(vec.a == nodeId || vec.b == nodeId) {
+            degree++;
+        }
+    }
+    return degree;
 }
 
 size_t Graph::graphDegree() const{
-    return 42;
+    size_t maxDegree = 0;
+    for(auto vec : myNode) {
+        if(nodeDegree(vec->id) > maxDegree) {
+            maxDegree = nodeDegree(vec->id);
+        }
+    }
+    return maxDegree;
 }
 
 void Graph::coloring(){
+    size_t allColors = graphDegree() + 1;
+    for(auto edge : myEdge) {
+        std::vector<size_t> availableColors;
+        for(int i = 1; i <= allColors; i++) {
+            availableColors.push_back(i);
+        }
+        if(getNode(edge.a)->color == 0) {
+            for(auto tmpVec : myEdge) {
+                if(tmpVec.a == edge.a) {
+                    if(getNode(tmpVec.b)->color != 0) {
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == getNode(tmpVec.b)->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }           
+                }
+                if(tmpVec.b == edge.a ) {
+                    if(getNode(tmpVec.a)->color == 0) {
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == getNode(tmpVec.a)->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }
+                }
+                for(auto node : myNode) {
+                    if(node == getNode(edge.a)) {
+                        node->color = availableColors[0];
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == node->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if(getNode(edge.b)->color == 0) {
+            for(auto tmpVec : myEdge) {
+                if(tmpVec.a == edge.b) {
+                    if(getNode(tmpVec.b)->color != 0) {
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == getNode(tmpVec.b)->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }           
+                }
+                if(tmpVec.b == edge.b) {
+                    if(getNode(tmpVec.a)->color == 0) {
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == getNode(tmpVec.a)->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }
+                }
+                for(auto node : myNode) {
+                    if(node == getNode(edge.b)) {
+                        for(int i = 0; i < availableColors.size(); i++) {
+                            if(availableColors[i] == node->color) {
+                                availableColors.erase(availableColors.begin() + i);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 void Graph::clear() {
