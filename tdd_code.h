@@ -3,7 +3,7 @@
 // Purpose:     Test Driven Development - graph
 //
 // $NoKeywords: $ivs_project_1 $tdd_code.h
-// $Author:     JMENO PRIJMENI <xlogin00@stud.fit.vutbr.cz>
+// $Author:     Denys Petrovskyi <xpetro27@stud.fit.vutbr.cz>
 // $Date:       $2023-03-07
 //============================================================================//
 /**
