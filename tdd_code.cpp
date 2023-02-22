@@ -233,6 +233,9 @@ void Graph::coloring(){
 }
 
 void Graph::clear() {
+    for(auto vec : myNode) {
+        free(vec);
+    }
     myNode.clear();
     myEdge.clear();
 }

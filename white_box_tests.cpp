@@ -40,19 +40,19 @@ TEST(HashMap, Ctor) {
 
 TEST(HashMap, Reserved) {
     hash_map* tmpHash = hash_map_ctor();
-    hash_map_state_code_t var = hash_map_reserve(tmpHash, 18);
+    hash_map_state_code_t var = hash_map_reserve(tmpHash, 18); //test for empty map
     ASSERT_TRUE(OK == var);
     hash_map_put(tmpHash, "key1", 44);
-    var = hash_map_reserve(tmpHash, 18);
+    var = hash_map_reserve(tmpHash, 18); //test for nonempty map
     ASSERT_TRUE(OK == var);
     hash_map_dtor(tmpHash);
 }
 
 TEST(HashMap, Put) {
     hash_map* tmpHash = hash_map_ctor();
-    hash_map_state_code_t var = hash_map_put(tmpHash, "key1", 44);
+    hash_map_state_code_t var = hash_map_put(tmpHash, "key1", 44); //test for empty map
     ASSERT_TRUE(OK == var);
-    var = hash_map_put(tmpHash, "key1", 45);
+    var = hash_map_put(tmpHash, "key1", 45); //test for nonempty map
     ASSERT_TRUE(KEY_ALREADY_EXISTS == var);
     hash_map_dtor(tmpHash);
 }
@@ -60,29 +60,29 @@ TEST(HashMap, Put) {
 TEST(HashMap, Size) {
     hash_map* tmpHash = hash_map_ctor();
     size_t tmpSize = hash_map_size(tmpHash);
-    ASSERT_TRUE(tmpSize == tmpHash->used);
+    ASSERT_TRUE(tmpSize == tmpHash->used);//test for empty map
     hash_map_put(tmpHash, "key1", 44);
     tmpSize = hash_map_size(tmpHash);
-    ASSERT_TRUE(tmpSize == tmpHash->used);
+    ASSERT_TRUE(tmpSize == tmpHash->used);//test for nonempty map
     hash_map_dtor(tmpHash);
 }
 
 TEST(HashMap, Capacity) {
     hash_map* tmpHash = hash_map_ctor();
     size_t tmpSize = hash_map_capacity(tmpHash);
-    ASSERT_TRUE(tmpSize == tmpHash->allocated);
+    ASSERT_TRUE(tmpSize == tmpHash->allocated);//test for empty map
     hash_map_put(tmpHash, "key1", 44);
     tmpSize = hash_map_capacity(tmpHash);
-    ASSERT_TRUE(tmpSize == tmpHash->allocated);
+    ASSERT_TRUE(tmpSize == tmpHash->allocated);//test for nonempty map
     hash_map_dtor(tmpHash);
 }
 
 TEST(HashMap, Contains) {
     hash_map* tmpHash = hash_map_ctor();
-    bool val = hash_map_contains(tmpHash, "key1");
+    bool val = hash_map_contains(tmpHash, "key1");//test for empty map
     ASSERT_TRUE(!val);
     hash_map_put(tmpHash, "key1", 44);
-    val = hash_map_contains(tmpHash, "key1");
+    val = hash_map_contains(tmpHash, "key1");//test for nonempty map
     ASSERT_TRUE(val);
     hash_map_dtor(tmpHash);
 }
@@ -91,10 +91,10 @@ TEST(HashMap, Get) {
     hash_map* tmpHash = hash_map_ctor();
     int* a = (int*)malloc(sizeof(int));
     hash_map_state_code_t var = hash_map_get(tmpHash, "key1", a);
-    ASSERT_TRUE(var == KEY_ERROR);
+    ASSERT_TRUE(var == KEY_ERROR); //test for empty map
     hash_map_put(tmpHash, "key1", 44);
     var = hash_map_get(tmpHash, "key1", a);
-    ASSERT_TRUE(var == OK);
+    ASSERT_TRUE(var == OK); //test for nonempty map
     free(a);
     hash_map_dtor(tmpHash);
 }
@@ -103,10 +103,10 @@ TEST(HashMap, Pop) {
     hash_map* tmpHash = hash_map_ctor();
     int* a = (int*)malloc(sizeof(int));
     hash_map_state_code_t var = hash_map_pop(tmpHash, "key1", a);
-    ASSERT_TRUE(var == KEY_ERROR);
+    ASSERT_TRUE(var == KEY_ERROR);//test for empty map
     hash_map_put(tmpHash, "key1", 44);
     var = hash_map_pop(tmpHash, "key1", a);
-    ASSERT_TRUE(var == OK);
+    ASSERT_TRUE(var == OK);//test for nonempty map
     free(a);
     hash_map_dtor(tmpHash);
 }
@@ -114,10 +114,10 @@ TEST(HashMap, Pop) {
 TEST(HashMap, Remove) {
     hash_map* tmpHash = hash_map_ctor();
     hash_map_state_code_t var = hash_map_remove(tmpHash, "key1");
-    ASSERT_TRUE(var == KEY_ERROR);
+    ASSERT_TRUE(var == KEY_ERROR);//test for empty map
     hash_map_put(tmpHash, "key1", 44);
     var = hash_map_remove(tmpHash, "key1");
-    ASSERT_TRUE(var == OK);
+    ASSERT_TRUE(var == OK);//test for nonempty map
     hash_map_dtor(tmpHash);
 }
 

@@ -1,10 +1,10 @@
-Start testing: Feb 20 19:28 CET
+Start testing: Feb 22 16:29 CET
 ----------------------------------------------------------
-1/50 Testing: EmptyTree.InsertNode
-1/50 Test: EmptyTree.InsertNode
+1/51 Testing: EmptyTree.InsertNode
+1/51 Test: EmptyTree.InsertNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=EmptyTree.InsertNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyTree.InsertNode" start time: Feb 20 19:28 CET
+"EmptyTree.InsertNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = EmptyTree.InsertNode
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.InsertNode" end time: Feb 20 19:28 CET
+"EmptyTree.InsertNode" end time: Feb 22 16:29 CET
 "EmptyTree.InsertNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/50 Testing: EmptyTree.DeleteNode
-2/50 Test: EmptyTree.DeleteNode
+2/51 Testing: EmptyTree.DeleteNode
+2/51 Test: EmptyTree.DeleteNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=EmptyTree.DeleteNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyTree.DeleteNode" start time: Feb 20 19:28 CET
+"EmptyTree.DeleteNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,18 +47,18 @@ Note: Google Test filter = EmptyTree.DeleteNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.DeleteNode" end time: Feb 20 19:28 CET
+"EmptyTree.DeleteNode" end time: Feb 22 16:29 CET
 "EmptyTree.DeleteNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/50 Testing: EmptyTree.FindNode
-3/50 Test: EmptyTree.FindNode
+3/51 Testing: EmptyTree.FindNode
+3/51 Test: EmptyTree.FindNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=EmptyTree.FindNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyTree.FindNode" start time: Feb 20 19:28 CET
+"EmptyTree.FindNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = EmptyTree.FindNode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.FindNode" end time: Feb 20 19:28 CET
+"EmptyTree.FindNode" end time: Feb 22 16:29 CET
 "EmptyTree.FindNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/50 Testing: NonEmptyTree.InsertNode
-4/50 Test: NonEmptyTree.InsertNode
+4/51 Testing: NonEmptyTree.InsertNode
+4/51 Test: NonEmptyTree.InsertNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=NonEmptyTree.InsertNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyTree.InsertNode" start time: Feb 20 19:28 CET
+"NonEmptyTree.InsertNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,18 +101,18 @@ Note: Google Test filter = NonEmptyTree.InsertNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.InsertNode" end time: Feb 20 19:28 CET
+"NonEmptyTree.InsertNode" end time: Feb 22 16:29 CET
 "NonEmptyTree.InsertNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/50 Testing: NonEmptyTree.DeleteNode
-5/50 Test: NonEmptyTree.DeleteNode
+5/51 Testing: NonEmptyTree.DeleteNode
+5/51 Test: NonEmptyTree.DeleteNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=NonEmptyTree.DeleteNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyTree.DeleteNode" start time: Feb 20 19:28 CET
+"NonEmptyTree.DeleteNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = NonEmptyTree.DeleteNode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.DeleteNode" end time: Feb 20 19:28 CET
+"NonEmptyTree.DeleteNode" end time: Feb 22 16:29 CET
 "NonEmptyTree.DeleteNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/50 Testing: NonEmptyTree.FindNode
-6/50 Test: NonEmptyTree.FindNode
+6/51 Testing: NonEmptyTree.FindNode
+6/51 Test: NonEmptyTree.FindNode
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=NonEmptyTree.FindNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyTree.FindNode" start time: Feb 20 19:28 CET
+"NonEmptyTree.FindNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = NonEmptyTree.FindNode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.FindNode" end time: Feb 20 19:28 CET
+"NonEmptyTree.FindNode" end time: Feb 22 16:29 CET
 "NonEmptyTree.FindNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/50 Testing: TreeAxioms.Axiom1
-7/50 Test: TreeAxioms.Axiom1
+7/51 Testing: TreeAxioms.Axiom1
+7/51 Test: TreeAxioms.Axiom1
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=TreeAxioms.Axiom1" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"TreeAxioms.Axiom1" start time: Feb 20 19:28 CET
+"TreeAxioms.Axiom1" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = TreeAxioms.Axiom1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom1" end time: Feb 20 19:28 CET
+"TreeAxioms.Axiom1" end time: Feb 22 16:29 CET
 "TreeAxioms.Axiom1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/50 Testing: TreeAxioms.Axiom2
-8/50 Test: TreeAxioms.Axiom2
+8/51 Testing: TreeAxioms.Axiom2
+8/51 Test: TreeAxioms.Axiom2
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=TreeAxioms.Axiom2" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"TreeAxioms.Axiom2" start time: Feb 20 19:28 CET
+"TreeAxioms.Axiom2" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = TreeAxioms.Axiom2
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom2" end time: Feb 20 19:28 CET
+"TreeAxioms.Axiom2" end time: Feb 22 16:29 CET
 "TreeAxioms.Axiom2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/50 Testing: TreeAxioms.Axiom3
-9/50 Test: TreeAxioms.Axiom3
+9/51 Testing: TreeAxioms.Axiom3
+9/51 Test: TreeAxioms.Axiom3
 Command: "/home/helheim/FIT/FIT-IVS2023/black_box_test" "--gtest_filter=TreeAxioms.Axiom3" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"TreeAxioms.Axiom3" start time: Feb 20 19:28 CET
+"TreeAxioms.Axiom3" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = TreeAxioms.Axiom3
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom3" end time: Feb 20 19:28 CET
+"TreeAxioms.Axiom3" end time: Feb 22 16:29 CET
 "TreeAxioms.Axiom3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/50 Testing: HashMap.Ctor
-10/50 Test: HashMap.Ctor
+10/51 Testing: HashMap.Ctor
+10/51 Test: HashMap.Ctor
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Ctor" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Ctor" start time: Feb 20 19:28 CET
+"HashMap.Ctor" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,18 +263,18 @@ Note: Google Test filter = HashMap.Ctor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Ctor" end time: Feb 20 19:28 CET
+"HashMap.Ctor" end time: Feb 22 16:29 CET
 "HashMap.Ctor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/50 Testing: HashMap.Reserved
-11/50 Test: HashMap.Reserved
+11/51 Testing: HashMap.Reserved
+11/51 Test: HashMap.Reserved
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Reserved" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Reserved" start time: Feb 20 19:28 CET
+"HashMap.Reserved" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -293,15 +293,15 @@ Note: Google Test filter = HashMap.Reserved
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Reserved" end time: Feb 20 19:28 CET
+"HashMap.Reserved" end time: Feb 22 16:29 CET
 "HashMap.Reserved" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/50 Testing: HashMap.Put
-12/50 Test: HashMap.Put
+12/51 Testing: HashMap.Put
+12/51 Test: HashMap.Put
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Put" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Put" start time: Feb 20 19:28 CET
+"HashMap.Put" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,15 +320,15 @@ Note: Google Test filter = HashMap.Put
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Put" end time: Feb 20 19:28 CET
+"HashMap.Put" end time: Feb 22 16:29 CET
 "HashMap.Put" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/50 Testing: HashMap.Size
-13/50 Test: HashMap.Size
+13/51 Testing: HashMap.Size
+13/51 Test: HashMap.Size
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Size" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Size" start time: Feb 20 19:28 CET
+"HashMap.Size" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = HashMap.Size
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Size" end time: Feb 20 19:28 CET
+"HashMap.Size" end time: Feb 22 16:29 CET
 "HashMap.Size" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/50 Testing: HashMap.Capacity
-14/50 Test: HashMap.Capacity
+14/51 Testing: HashMap.Capacity
+14/51 Test: HashMap.Capacity
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Capacity" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Capacity" start time: Feb 20 19:28 CET
+"HashMap.Capacity" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = HashMap.Capacity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Capacity" end time: Feb 20 19:28 CET
+"HashMap.Capacity" end time: Feb 22 16:29 CET
 "HashMap.Capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/50 Testing: HashMap.Contains
-15/50 Test: HashMap.Contains
+15/51 Testing: HashMap.Contains
+15/51 Test: HashMap.Contains
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Contains" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Contains" start time: Feb 20 19:28 CET
+"HashMap.Contains" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,15 +401,15 @@ Note: Google Test filter = HashMap.Contains
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Contains" end time: Feb 20 19:28 CET
+"HashMap.Contains" end time: Feb 22 16:29 CET
 "HashMap.Contains" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/50 Testing: HashMap.Get
-16/50 Test: HashMap.Get
+16/51 Testing: HashMap.Get
+16/51 Test: HashMap.Get
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Get" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Get" start time: Feb 20 19:28 CET
+"HashMap.Get" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -428,15 +428,15 @@ Note: Google Test filter = HashMap.Get
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Get" end time: Feb 20 19:28 CET
+"HashMap.Get" end time: Feb 22 16:29 CET
 "HashMap.Get" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/50 Testing: HashMap.Pop
-17/50 Test: HashMap.Pop
+17/51 Testing: HashMap.Pop
+17/51 Test: HashMap.Pop
 Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Pop" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"HashMap.Pop" start time: Feb 20 19:28 CET
+"HashMap.Pop" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -455,15 +455,42 @@ Note: Google Test filter = HashMap.Pop
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMap.Pop" end time: Feb 20 19:28 CET
+"HashMap.Pop" end time: Feb 22 16:29 CET
 "HashMap.Pop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/50 Testing: NonEmptyGraph.nodes
-18/50 Test: NonEmptyGraph.nodes
+18/51 Testing: HashMap.Remove
+18/51 Test: HashMap.Remove
+Command: "/home/helheim/FIT/FIT-IVS2023/white_box_test" "--gtest_filter=HashMap.Remove" "--gtest_also_run_disabled_tests"
+Directory: /home/helheim/FIT/FIT-IVS2023
+"HashMap.Remove" start time: Feb 22 16:29 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HashMap.Remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashMap
+[ RUN      ] HashMap.Remove
+[       OK ] HashMap.Remove (0 ms)
+[----------] 1 test from HashMap (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashMap.Remove" end time: Feb 22 16:29 CET
+"HashMap.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/51 Testing: NonEmptyGraph.nodes
+19/51 Test: NonEmptyGraph.nodes
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.nodes" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.nodes" start time: Feb 20 19:28 CET
+"NonEmptyGraph.nodes" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -472,38 +499,25 @@ Note: Google Test filter = NonEmptyGraph.nodes
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.nodes
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:56: Failure
-Value of: nodes
-Expected: has 5 elements and there exists some permutation of elements such that:
- - element #0 is an object whose given field is equal to 1, and
- - element #1 is an object whose given field is equal to 4, and
- - element #2 is an object whose given field is equal to 5, and
- - element #3 is an object whose given field is equal to 6, and
- - element #4 is an object whose given field is equal to 7
-  Actual: {}
-[  FAILED  ] NonEmptyGraph.nodes (0 ms)
+[       OK ] NonEmptyGraph.nodes (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.nodes
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.nodes" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.nodes" end time: Feb 22 16:29 CET
 "NonEmptyGraph.nodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/50 Testing: NonEmptyGraph.edges
-19/50 Test: NonEmptyGraph.edges
+20/51 Testing: NonEmptyGraph.edges
+20/51 Test: NonEmptyGraph.edges
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.edges" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.edges" start time: Feb 20 19:28 CET
+"NonEmptyGraph.edges" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -512,39 +526,25 @@ Note: Google Test filter = NonEmptyGraph.edges
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.edges
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:71: Failure
-Value of: edges
-Expected: has 6 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {4, 6}, and
- - element #3 is equal to {5, 6}, and
- - element #4 is equal to {5, 7}, and
- - element #5 is equal to {7, 6}
-  Actual: {}
-[  FAILED  ] NonEmptyGraph.edges (0 ms)
+[       OK ] NonEmptyGraph.edges (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.edges
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.edges" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.edges" end time: Feb 22 16:29 CET
 "NonEmptyGraph.edges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/50 Testing: NonEmptyGraph.addNode
-20/50 Test: NonEmptyGraph.addNode
+21/51 Testing: NonEmptyGraph.addNode
+21/51 Test: NonEmptyGraph.addNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.addNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.addNode" start time: Feb 20 19:28 CET
+"NonEmptyGraph.addNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -553,31 +553,25 @@ Note: Google Test filter = NonEmptyGraph.addNode
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.addNode
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:77: Failure
-Expected: (node) != (nullptr), actual: NULL vs (nullptr)
-[  FAILED  ] NonEmptyGraph.addNode (0 ms)
+[       OK ] NonEmptyGraph.addNode (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.addNode
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.addNode" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.addNode" end time: Feb 22 16:29 CET
 "NonEmptyGraph.addNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/50 Testing: NonEmptyGraph.addEdge
-21/50 Test: NonEmptyGraph.addEdge
+22/51 Testing: NonEmptyGraph.addEdge
+22/51 Test: NonEmptyGraph.addEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.addEdge" start time: Feb 20 19:28 CET
+"NonEmptyGraph.addEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -586,77 +580,25 @@ Note: Google Test filter = NonEmptyGraph.addEdge
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.addEdge
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:101: Failure
-Value of: graph.addEdge(Edge(1, 8))
-  Actual: false
-Expected: true
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:103: Failure
-Value of: edges
-Expected: has 7 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {1, 8}, and
- - element #3 is equal to {4, 6}, and
- - element #4 is equal to {5, 6}, and
- - element #5 is equal to {5, 7}, and
- - element #6 is equal to {7, 6}
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:108: Failure
-Value of: edges
-Expected: has 7 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {1, 8}, and
- - element #3 is equal to {4, 6}, and
- - element #4 is equal to {5, 6}, and
- - element #5 is equal to {5, 7}, and
- - element #6 is equal to {7, 6}
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:113: Failure
-Value of: edges
-Expected: has 7 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {1, 8}, and
- - element #3 is equal to {4, 6}, and
- - element #4 is equal to {5, 6}, and
- - element #5 is equal to {5, 7}, and
- - element #6 is equal to {7, 6}
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:118: Failure
-Value of: edges
-Expected: has 7 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {1, 8}, and
- - element #3 is equal to {4, 6}, and
- - element #4 is equal to {5, 6}, and
- - element #5 is equal to {5, 7}, and
- - element #6 is equal to {7, 6}
-  Actual: {}
-[  FAILED  ] NonEmptyGraph.addEdge (0 ms)
+[       OK ] NonEmptyGraph.addEdge (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.addEdge
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.addEdge" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.addEdge" end time: Feb 22 16:29 CET
 "NonEmptyGraph.addEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/50 Testing: NonEmptyGraph.addMultipleEdges
-22/50 Test: NonEmptyGraph.addMultipleEdges
+23/51 Testing: NonEmptyGraph.addMultipleEdges
+23/51 Test: NonEmptyGraph.addMultipleEdges
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.addMultipleEdges" start time: Feb 20 19:28 CET
+"NonEmptyGraph.addMultipleEdges" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -665,55 +607,25 @@ Note: Google Test filter = NonEmptyGraph.addMultipleEdges
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.addMultipleEdges
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:130: Failure
-Value of: graph.nodes()
-Expected: has 9 elements and there exists some permutation of elements such that:
- - element #0 is an object whose given field is equal to 1, and
- - element #1 is an object whose given field is equal to 4, and
- - element #2 is an object whose given field is equal to 5, and
- - element #3 is an object whose given field is equal to 6, and
- - element #4 is an object whose given field is equal to 7, and
- - element #5 is an object whose given field is equal to 10, and
- - element #6 is an object whose given field is equal to 40, and
- - element #7 is an object whose given field is equal to 70, and
- - element #8 is an object whose given field is equal to 60
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:140: Failure
-Value of: graph.edges()
-Expected: has 9 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {4, 6}, and
- - element #3 is equal to {5, 6}, and
- - element #4 is equal to {5, 7}, and
- - element #5 is equal to {7, 6}, and
- - element #6 is equal to {10, 40}, and
- - element #7 is equal to {10, 1}, and
- - element #8 is equal to {70, 60}
-  Actual: {}
-[  FAILED  ] NonEmptyGraph.addMultipleEdges (0 ms)
+[       OK ] NonEmptyGraph.addMultipleEdges (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.addMultipleEdges
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.addMultipleEdges" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.addMultipleEdges" end time: Feb 22 16:29 CET
 "NonEmptyGraph.addMultipleEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/50 Testing: NonEmptyGraph.getNode
-23/50 Test: NonEmptyGraph.getNode
+24/51 Testing: NonEmptyGraph.getNode
+24/51 Test: NonEmptyGraph.getNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.getNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.getNode" start time: Feb 20 19:28 CET
+"NonEmptyGraph.getNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -722,31 +634,25 @@ Note: Google Test filter = NonEmptyGraph.getNode
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.getNode
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:148: Failure
-Expected: (node) != (nullptr), actual: NULL vs (nullptr)
-[  FAILED  ] NonEmptyGraph.getNode (0 ms)
+[       OK ] NonEmptyGraph.getNode (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.getNode
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.getNode" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.getNode" end time: Feb 22 16:29 CET
 "NonEmptyGraph.getNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/50 Testing: NonEmptyGraph.containsEdge
-24/50 Test: NonEmptyGraph.containsEdge
+25/51 Testing: NonEmptyGraph.containsEdge
+25/51 Test: NonEmptyGraph.containsEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.containsEdge" start time: Feb 20 19:28 CET
+"NonEmptyGraph.containsEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -755,37 +661,25 @@ Note: Google Test filter = NonEmptyGraph.containsEdge
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.containsEdge
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:155: Failure
-Value of: graph.containsEdge(Edge(1, 4))
-  Actual: false
-Expected: true
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:156: Failure
-Value of: graph.containsEdge(Edge(4, 1))
-  Actual: false
-Expected: true
-[  FAILED  ] NonEmptyGraph.containsEdge (0 ms)
+[       OK ] NonEmptyGraph.containsEdge (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.containsEdge
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.containsEdge" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.containsEdge" end time: Feb 22 16:29 CET
 "NonEmptyGraph.containsEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/50 Testing: NonEmptyGraph.removeNode
-25/50 Test: NonEmptyGraph.removeNode
+26/51 Testing: NonEmptyGraph.removeNode
+26/51 Test: NonEmptyGraph.removeNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.removeNode" start time: Feb 20 19:28 CET
+"NonEmptyGraph.removeNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -794,48 +688,25 @@ Note: Google Test filter = NonEmptyGraph.removeNode
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.removeNode
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:169: Failure
-Value of: nodes
-Expected: has 4 elements and there exists some permutation of elements such that:
- - element #0 is an object whose given field is equal to 4, and
- - element #1 is an object whose given field is equal to 5, and
- - element #2 is an object whose given field is equal to 6, and
- - element #3 is an object whose given field is equal to 7
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:175: Failure
-Value of: edges
-Expected: has 4 elements and there exists some permutation of elements such that:
- - element #0 is equal to {4, 6}, and
- - element #1 is equal to {5, 6}, and
- - element #2 is equal to {5, 7}, and
- - element #3 is equal to {7, 6}
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:177: Failure
-Expected: graph.removeNode(1) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] NonEmptyGraph.removeNode (0 ms)
+[       OK ] NonEmptyGraph.removeNode (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.removeNode
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.removeNode" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.removeNode" end time: Feb 22 16:29 CET
 "NonEmptyGraph.removeNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/50 Testing: NonEmptyGraph.removeEdge
-26/50 Test: NonEmptyGraph.removeEdge
+27/51 Testing: NonEmptyGraph.removeEdge
+27/51 Test: NonEmptyGraph.removeEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.removeEdge" start time: Feb 20 19:28 CET
+"NonEmptyGraph.removeEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -844,41 +715,25 @@ Note: Google Test filter = NonEmptyGraph.removeEdge
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.removeEdge
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:183: Failure
-Value of: edges
-Expected: has 5 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 5}, and
- - element #1 is equal to {4, 6}, and
- - element #2 is equal to {5, 6}, and
- - element #3 is equal to {5, 7}, and
- - element #4 is equal to {7, 6}
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:186: Failure
-Expected: graph.removeEdge(Edge(1, 4)) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] NonEmptyGraph.removeEdge (0 ms)
+[       OK ] NonEmptyGraph.removeEdge (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.removeEdge
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.removeEdge" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.removeEdge" end time: Feb 22 16:29 CET
 "NonEmptyGraph.removeEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/50 Testing: NonEmptyGraph.nodeCount
-27/50 Test: NonEmptyGraph.nodeCount
+28/51 Testing: NonEmptyGraph.nodeCount
+28/51 Test: NonEmptyGraph.nodeCount
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.nodeCount" start time: Feb 20 19:28 CET
+"NonEmptyGraph.nodeCount" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -887,34 +742,25 @@ Note: Google Test filter = NonEmptyGraph.nodeCount
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.nodeCount
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:190: Failure
-Expected equality of these values:
-  graph.nodeCount()
-    Which is: 42
-  5
-[  FAILED  ] NonEmptyGraph.nodeCount (0 ms)
+[       OK ] NonEmptyGraph.nodeCount (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.nodeCount
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.nodeCount" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.nodeCount" end time: Feb 22 16:29 CET
 "NonEmptyGraph.nodeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/50 Testing: NonEmptyGraph.edgeCount
-28/50 Test: NonEmptyGraph.edgeCount
+29/51 Testing: NonEmptyGraph.edgeCount
+29/51 Test: NonEmptyGraph.edgeCount
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.edgeCount" start time: Feb 20 19:28 CET
+"NonEmptyGraph.edgeCount" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -923,34 +769,25 @@ Note: Google Test filter = NonEmptyGraph.edgeCount
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.edgeCount
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:194: Failure
-Expected equality of these values:
-  graph.edgeCount()
-    Which is: 42
-  6
-[  FAILED  ] NonEmptyGraph.edgeCount (0 ms)
+[       OK ] NonEmptyGraph.edgeCount (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.edgeCount
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.edgeCount" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.edgeCount" end time: Feb 22 16:29 CET
 "NonEmptyGraph.edgeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/50 Testing: NonEmptyGraph.nodeDegree
-29/50 Test: NonEmptyGraph.nodeDegree
+30/51 Testing: NonEmptyGraph.nodeDegree
+30/51 Test: NonEmptyGraph.nodeDegree
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.nodeDegree" start time: Feb 20 19:28 CET
+"NonEmptyGraph.nodeDegree" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -959,57 +796,25 @@ Note: Google Test filter = NonEmptyGraph.nodeDegree
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.nodeDegree
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:198: Failure
-Expected equality of these values:
-  graph.nodeDegree(1)
-    Which is: 42
-  2
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:199: Failure
-Expected equality of these values:
-  graph.nodeDegree(4)
-    Which is: 42
-  2
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:200: Failure
-Expected equality of these values:
-  graph.nodeDegree(5)
-    Which is: 42
-  3
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:201: Failure
-Expected equality of these values:
-  graph.nodeDegree(6)
-    Which is: 42
-  3
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:202: Failure
-Expected equality of these values:
-  graph.nodeDegree(7)
-    Which is: 42
-  2
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:203: Failure
-Expected: graph.nodeDegree(9) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] NonEmptyGraph.nodeDegree (0 ms)
+[       OK ] NonEmptyGraph.nodeDegree (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.nodeDegree
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.nodeDegree" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.nodeDegree" end time: Feb 22 16:29 CET
 "NonEmptyGraph.nodeDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/50 Testing: NonEmptyGraph.graphDegree
-30/50 Test: NonEmptyGraph.graphDegree
+31/51 Testing: NonEmptyGraph.graphDegree
+31/51 Test: NonEmptyGraph.graphDegree
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.graphDegree" start time: Feb 20 19:28 CET
+"NonEmptyGraph.graphDegree" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1018,34 +823,25 @@ Note: Google Test filter = NonEmptyGraph.graphDegree
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.graphDegree
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:207: Failure
-Expected equality of these values:
-  graph.graphDegree()
-    Which is: 42
-  3
-[  FAILED  ] NonEmptyGraph.graphDegree (0 ms)
+[       OK ] NonEmptyGraph.graphDegree (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.graphDegree
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.graphDegree" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.graphDegree" end time: Feb 22 16:29 CET
 "NonEmptyGraph.graphDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-31/50 Testing: NonEmptyGraph.coloring
-31/50 Test: NonEmptyGraph.coloring
+32/51 Testing: NonEmptyGraph.coloring
+32/51 Test: NonEmptyGraph.coloring
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.coloring" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.coloring" start time: Feb 20 19:28 CET
+"NonEmptyGraph.coloring" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1054,33 +850,25 @@ Note: Google Test filter = NonEmptyGraph.coloring
 [----------] Global test environment set-up.
 [----------] 1 test from NonEmptyGraph
 [ RUN      ] NonEmptyGraph.coloring
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:218: Failure
-Value of: *colors.begin() != 0
-  Actual: false
-Expected: true
-[  FAILED  ] NonEmptyGraph.coloring (0 ms)
+[       OK ] NonEmptyGraph.coloring (0 ms)
 [----------] 1 test from NonEmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] NonEmptyGraph.coloring
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"NonEmptyGraph.coloring" end time: Feb 20 19:28 CET
+Test Passed.
+"NonEmptyGraph.coloring" end time: Feb 22 16:29 CET
 "NonEmptyGraph.coloring" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-32/50 Testing: NonEmptyGraph.clear
-32/50 Test: NonEmptyGraph.clear
+33/51 Testing: NonEmptyGraph.clear
+33/51 Test: NonEmptyGraph.clear
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=NonEmptyGraph.clear" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"NonEmptyGraph.clear" start time: Feb 20 19:28 CET
+"NonEmptyGraph.clear" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1099,15 +887,15 @@ Note: Google Test filter = NonEmptyGraph.clear
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.clear" end time: Feb 20 19:28 CET
+"NonEmptyGraph.clear" end time: Feb 22 16:29 CET
 "NonEmptyGraph.clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/50 Testing: EmptyGraph.nodes
-33/50 Test: EmptyGraph.nodes
+34/51 Testing: EmptyGraph.nodes
+34/51 Test: EmptyGraph.nodes
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.nodes" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.nodes" start time: Feb 20 19:28 CET
+"EmptyGraph.nodes" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1126,15 +914,15 @@ Note: Google Test filter = EmptyGraph.nodes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.nodes" end time: Feb 20 19:28 CET
+"EmptyGraph.nodes" end time: Feb 22 16:29 CET
 "EmptyGraph.nodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-34/50 Testing: EmptyGraph.edges
-34/50 Test: EmptyGraph.edges
+35/51 Testing: EmptyGraph.edges
+35/51 Test: EmptyGraph.edges
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.edges" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.edges" start time: Feb 20 19:28 CET
+"EmptyGraph.edges" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1153,15 +941,15 @@ Note: Google Test filter = EmptyGraph.edges
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.edges" end time: Feb 20 19:28 CET
+"EmptyGraph.edges" end time: Feb 22 16:29 CET
 "EmptyGraph.edges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-35/50 Testing: EmptyGraph.addNode
-35/50 Test: EmptyGraph.addNode
+36/51 Testing: EmptyGraph.addNode
+36/51 Test: EmptyGraph.addNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.addNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.addNode" start time: Feb 20 19:28 CET
+"EmptyGraph.addNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1170,31 +958,25 @@ Note: Google Test filter = EmptyGraph.addNode
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.addNode
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:249: Failure
-Expected: (node) != (nullptr), actual: NULL vs (nullptr)
-[  FAILED  ] EmptyGraph.addNode (0 ms)
+[       OK ] EmptyGraph.addNode (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.addNode
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.addNode" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.addNode" end time: Feb 22 16:29 CET
 "EmptyGraph.addNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-36/50 Testing: EmptyGraph.addEdge
-36/50 Test: EmptyGraph.addEdge
+37/51 Testing: EmptyGraph.addEdge
+37/51 Test: EmptyGraph.addEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.addEdge" start time: Feb 20 19:28 CET
+"EmptyGraph.addEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1203,37 +985,25 @@ Note: Google Test filter = EmptyGraph.addEdge
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.addEdge
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:260: Failure
-Value of: graph.addEdge(Edge(1, 4))
-  Actual: false
-Expected: true
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:262: Failure
-Value of: edges
-Expected: has 1 element and that element is equal to {1, 4}
-  Actual: {}
-[  FAILED  ] EmptyGraph.addEdge (0 ms)
+[       OK ] EmptyGraph.addEdge (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.addEdge
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.addEdge" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.addEdge" end time: Feb 22 16:29 CET
 "EmptyGraph.addEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-37/50 Testing: EmptyGraph.addMultipleEdges
-37/50 Test: EmptyGraph.addMultipleEdges
+38/51 Testing: EmptyGraph.addMultipleEdges
+38/51 Test: EmptyGraph.addMultipleEdges
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.addMultipleEdges" start time: Feb 20 19:28 CET
+"EmptyGraph.addMultipleEdges" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1242,48 +1012,25 @@ Note: Google Test filter = EmptyGraph.addMultipleEdges
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.addMultipleEdges
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:277: Failure
-Value of: graph.nodes()
-Expected: has 5 elements and there exists some permutation of elements such that:
- - element #0 is an object whose given field is equal to 1, and
- - element #1 is an object whose given field is equal to 4, and
- - element #2 is an object whose given field is equal to 5, and
- - element #3 is an object whose given field is equal to 6, and
- - element #4 is an object whose given field is equal to 7
-  Actual: {}
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:283: Failure
-Value of: graph.edges()
-Expected: has 6 elements and there exists some permutation of elements such that:
- - element #0 is equal to {1, 4}, and
- - element #1 is equal to {1, 5}, and
- - element #2 is equal to {4, 6}, and
- - element #3 is equal to {5, 6}, and
- - element #4 is equal to {5, 7}, and
- - element #5 is equal to {7, 6}
-  Actual: {}
-[  FAILED  ] EmptyGraph.addMultipleEdges (0 ms)
+[       OK ] EmptyGraph.addMultipleEdges (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.addMultipleEdges
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.addMultipleEdges" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.addMultipleEdges" end time: Feb 22 16:29 CET
 "EmptyGraph.addMultipleEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-38/50 Testing: EmptyGraph.getNode
-38/50 Test: EmptyGraph.getNode
+39/51 Testing: EmptyGraph.getNode
+39/51 Test: EmptyGraph.getNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.getNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.getNode" start time: Feb 20 19:28 CET
+"EmptyGraph.getNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1302,15 +1049,15 @@ Note: Google Test filter = EmptyGraph.getNode
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.getNode" end time: Feb 20 19:28 CET
+"EmptyGraph.getNode" end time: Feb 22 16:29 CET
 "EmptyGraph.getNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/50 Testing: EmptyGraph.containsEdge
-39/50 Test: EmptyGraph.containsEdge
+40/51 Testing: EmptyGraph.containsEdge
+40/51 Test: EmptyGraph.containsEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.containsEdge" start time: Feb 20 19:28 CET
+"EmptyGraph.containsEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1329,15 +1076,15 @@ Note: Google Test filter = EmptyGraph.containsEdge
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.containsEdge" end time: Feb 20 19:28 CET
+"EmptyGraph.containsEdge" end time: Feb 22 16:29 CET
 "EmptyGraph.containsEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-40/50 Testing: EmptyGraph.removeNode
-40/50 Test: EmptyGraph.removeNode
+41/51 Testing: EmptyGraph.removeNode
+41/51 Test: EmptyGraph.removeNode
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.removeNode" start time: Feb 20 19:28 CET
+"EmptyGraph.removeNode" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1346,32 +1093,25 @@ Note: Google Test filter = EmptyGraph.removeNode
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.removeNode
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:296: Failure
-Expected: graph.removeNode(1) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] EmptyGraph.removeNode (0 ms)
+[       OK ] EmptyGraph.removeNode (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.removeNode
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.removeNode" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.removeNode" end time: Feb 22 16:29 CET
 "EmptyGraph.removeNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-41/50 Testing: EmptyGraph.removeEdge
-41/50 Test: EmptyGraph.removeEdge
+42/51 Testing: EmptyGraph.removeEdge
+42/51 Test: EmptyGraph.removeEdge
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.removeEdge" start time: Feb 20 19:28 CET
+"EmptyGraph.removeEdge" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1380,32 +1120,25 @@ Note: Google Test filter = EmptyGraph.removeEdge
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.removeEdge
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:300: Failure
-Expected: graph.removeEdge(Edge(1, 4)) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] EmptyGraph.removeEdge (0 ms)
+[       OK ] EmptyGraph.removeEdge (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.removeEdge
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.removeEdge" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.removeEdge" end time: Feb 22 16:29 CET
 "EmptyGraph.removeEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-42/50 Testing: EmptyGraph.nodeCount
-42/50 Test: EmptyGraph.nodeCount
+43/51 Testing: EmptyGraph.nodeCount
+43/51 Test: EmptyGraph.nodeCount
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.nodeCount" start time: Feb 20 19:28 CET
+"EmptyGraph.nodeCount" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1414,34 +1147,25 @@ Note: Google Test filter = EmptyGraph.nodeCount
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.nodeCount
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:304: Failure
-Expected equality of these values:
-  graph.nodeCount()
-    Which is: 42
-  0
-[  FAILED  ] EmptyGraph.nodeCount (0 ms)
+[       OK ] EmptyGraph.nodeCount (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.nodeCount
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.nodeCount" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.nodeCount" end time: Feb 22 16:29 CET
 "EmptyGraph.nodeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-43/50 Testing: EmptyGraph.edgeCount
-43/50 Test: EmptyGraph.edgeCount
+44/51 Testing: EmptyGraph.edgeCount
+44/51 Test: EmptyGraph.edgeCount
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.edgeCount" start time: Feb 20 19:28 CET
+"EmptyGraph.edgeCount" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1450,34 +1174,25 @@ Note: Google Test filter = EmptyGraph.edgeCount
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.edgeCount
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:308: Failure
-Expected equality of these values:
-  graph.edgeCount()
-    Which is: 42
-  0
-[  FAILED  ] EmptyGraph.edgeCount (0 ms)
+[       OK ] EmptyGraph.edgeCount (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.edgeCount
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.edgeCount" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.edgeCount" end time: Feb 22 16:29 CET
 "EmptyGraph.edgeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-44/50 Testing: EmptyGraph.nodeDegree
-44/50 Test: EmptyGraph.nodeDegree
+45/51 Testing: EmptyGraph.nodeDegree
+45/51 Test: EmptyGraph.nodeDegree
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.nodeDegree" start time: Feb 20 19:28 CET
+"EmptyGraph.nodeDegree" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1486,32 +1201,25 @@ Note: Google Test filter = EmptyGraph.nodeDegree
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.nodeDegree
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:312: Failure
-Expected: graph.nodeDegree(1) throws an exception of type std::out_of_range.
-  Actual: it throws nothing.
-[  FAILED  ] EmptyGraph.nodeDegree (0 ms)
+[       OK ] EmptyGraph.nodeDegree (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.nodeDegree
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.nodeDegree" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.nodeDegree" end time: Feb 22 16:29 CET
 "EmptyGraph.nodeDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-45/50 Testing: EmptyGraph.graphDegree
-45/50 Test: EmptyGraph.graphDegree
+46/51 Testing: EmptyGraph.graphDegree
+46/51 Test: EmptyGraph.graphDegree
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.graphDegree" start time: Feb 20 19:28 CET
+"EmptyGraph.graphDegree" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1520,34 +1228,25 @@ Note: Google Test filter = EmptyGraph.graphDegree
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyGraph
 [ RUN      ] EmptyGraph.graphDegree
-/home/helheim/FIT/FIT-IVS2023/tdd_tests.cpp:316: Failure
-Expected equality of these values:
-  graph.graphDegree()
-    Which is: 42
-  0
-[  FAILED  ] EmptyGraph.graphDegree (0 ms)
+[       OK ] EmptyGraph.graphDegree (0 ms)
 [----------] 1 test from EmptyGraph (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyGraph.graphDegree
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyGraph.graphDegree" end time: Feb 20 19:28 CET
+Test Passed.
+"EmptyGraph.graphDegree" end time: Feb 22 16:29 CET
 "EmptyGraph.graphDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-46/50 Testing: EmptyGraph.coloring
-46/50 Test: EmptyGraph.coloring
+47/51 Testing: EmptyGraph.coloring
+47/51 Test: EmptyGraph.coloring
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.coloring" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.coloring" start time: Feb 20 19:28 CET
+"EmptyGraph.coloring" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1566,15 +1265,15 @@ Note: Google Test filter = EmptyGraph.coloring
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.coloring" end time: Feb 20 19:28 CET
+"EmptyGraph.coloring" end time: Feb 22 16:29 CET
 "EmptyGraph.coloring" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-47/50 Testing: EmptyGraph.clear
-47/50 Test: EmptyGraph.clear
+48/51 Testing: EmptyGraph.clear
+48/51 Test: EmptyGraph.clear
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=EmptyGraph.clear" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"EmptyGraph.clear" start time: Feb 20 19:28 CET
+"EmptyGraph.clear" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1593,15 +1292,15 @@ Note: Google Test filter = EmptyGraph.clear
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.clear" end time: Feb 20 19:28 CET
+"EmptyGraph.clear" end time: Feb 22 16:29 CET
 "EmptyGraph.clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-48/50 Testing: Edges.equal
-48/50 Test: Edges.equal
+49/51 Testing: Edges.equal
+49/51 Test: Edges.equal
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=Edges.equal" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"Edges.equal" start time: Feb 20 19:28 CET
+"Edges.equal" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1620,15 +1319,15 @@ Note: Google Test filter = Edges.equal
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.equal" end time: Feb 20 19:28 CET
+"Edges.equal" end time: Feb 22 16:29 CET
 "Edges.equal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-49/50 Testing: Edges.nonEqual
-49/50 Test: Edges.nonEqual
+50/51 Testing: Edges.nonEqual
+50/51 Test: Edges.nonEqual
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=Edges.nonEqual" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"Edges.nonEqual" start time: Feb 20 19:28 CET
+"Edges.nonEqual" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1647,15 +1346,15 @@ Note: Google Test filter = Edges.nonEqual
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.nonEqual" end time: Feb 20 19:28 CET
+"Edges.nonEqual" end time: Feb 22 16:29 CET
 "Edges.nonEqual" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-50/50 Testing: Edges.toStringStream
-50/50 Test: Edges.toStringStream
+51/51 Testing: Edges.toStringStream
+51/51 Test: Edges.toStringStream
 Command: "/home/helheim/FIT/FIT-IVS2023/tdd_test" "--gtest_filter=Edges.toStringStream" "--gtest_also_run_disabled_tests"
 Directory: /home/helheim/FIT/FIT-IVS2023
-"Edges.toStringStream" start time: Feb 20 19:28 CET
+"Edges.toStringStream" start time: Feb 22 16:29 CET
 Output:
 ----------------------------------------------------------
 Running main() from /home/helheim/FIT/FIT-IVS2023/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1674,8 +1373,8 @@ Note: Google Test filter = Edges.toStringStream
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.toStringStream" end time: Feb 20 19:28 CET
+"Edges.toStringStream" end time: Feb 22 16:29 CET
 "Edges.toStringStream" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 20 19:28 CET
+End testing: Feb 22 16:29 CET

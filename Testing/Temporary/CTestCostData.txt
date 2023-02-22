@@ -1,75 +1,53 @@
-NonEmptyGraph.nodes 0 0
-NonEmptyGraph.edges 0 0
-NonEmptyGraph.addNode 0 0
-NonEmptyGraph.addEdge 0 0
-NonEmptyGraph.addMultipleEdges 0 0
-NonEmptyGraph.getNode 0 0
-NonEmptyGraph.containsEdge 0 0
-NonEmptyGraph.removeNode 0 0
-NonEmptyGraph.removeEdge 0 0
-NonEmptyGraph.nodeCount 0 0
-NonEmptyGraph.edgeCount 0 0
-NonEmptyGraph.nodeDegree 0 0
-NonEmptyGraph.graphDegree 0 0
-NonEmptyGraph.coloring 0 0
-NonEmptyGraph.clear 32 9.37088e-05
-EmptyGraph.nodes 32 9.21854e-05
-EmptyGraph.edges 32 0.000111076
-EmptyGraph.addNode 0 0
-EmptyGraph.addEdge 0 0
-EmptyGraph.addMultipleEdges 0 0
-EmptyGraph.getNode 32 0.000116676
-EmptyGraph.containsEdge 32 0.000123176
-EmptyGraph.removeNode 0 0
-EmptyGraph.removeEdge 0 0
-EmptyGraph.nodeCount 0 0
-EmptyGraph.edgeCount 0 0
-EmptyGraph.nodeDegree 0 0
-EmptyGraph.graphDegree 0 0
-EmptyGraph.coloring 32 0.000118549
-EmptyGraph.clear 32 0.000114317
-Edges.equal 32 0.00011416
-Edges.nonEqual 32 0.000119924
-Edges.toStringStream 32 9.33051e-05
-EmptyTree.InsertNode 30 0.000202094
-EmptyTree.DeleteNode 29 9.29674e-05
-EmptyTree.FindNode 28 0.000126455
-NonEmptyTree.InsertNode 26 0.000206782
-NonEmptyTree.DeleteNode 24 0.000159997
-NonEmptyTree.FindNode 23 0.000126955
-TreeAxioms.Axiom1 22 0.000140777
-TreeAxioms.Axiom2 21 0.000220409
-TreeAxioms.Axiom3 17 0.000174918
-HashMap.Ctor 15 0.000184342
+NonEmptyGraph.nodes 1 0.00338512
+NonEmptyGraph.edges 1 0.00303158
+NonEmptyGraph.addNode 1 0.00408586
+NonEmptyGraph.addEdge 1 0.00364801
+NonEmptyGraph.addMultipleEdges 1 0.00400519
+NonEmptyGraph.getNode 1 0.00373147
+NonEmptyGraph.containsEdge 1 0.0041353
+NonEmptyGraph.removeNode 1 0.00437591
+NonEmptyGraph.removeEdge 1 0.00384266
+NonEmptyGraph.nodeCount 1 0.00296453
+NonEmptyGraph.edgeCount 1 0.00340559
+NonEmptyGraph.nodeDegree 1 0.00409039
+NonEmptyGraph.graphDegree 1 0.00381989
+NonEmptyGraph.coloring 1 0.003419
+NonEmptyGraph.clear 33 9.48757e-05
+EmptyGraph.nodes 33 0.000143323
+EmptyGraph.edges 33 9.00375e-05
+EmptyGraph.addNode 1 0.0043463
+EmptyGraph.addEdge 1 0.00364173
+EmptyGraph.addMultipleEdges 1 0.004089
+EmptyGraph.getNode 33 0.000113278
+EmptyGraph.containsEdge 33 0.000102169
+EmptyGraph.removeNode 1 0.00366254
+EmptyGraph.removeEdge 1 0.00321017
+EmptyGraph.nodeCount 1 0.00310275
+EmptyGraph.edgeCount 1 0.00309067
+EmptyGraph.nodeDegree 1 0.00368286
+EmptyGraph.graphDegree 1 0.00439107
+EmptyGraph.coloring 33 9.91509e-05
+EmptyGraph.clear 33 0.000115943
+Edges.equal 33 0.000134352
+Edges.nonEqual 33 9.97541e-05
+Edges.toStringStream 33 0.000117682
+EmptyTree.InsertNode 31 0.000223239
+EmptyTree.DeleteNode 30 0.00016832
+EmptyTree.FindNode 29 0.000127422
+NonEmptyTree.InsertNode 27 9.55549e-05
+NonEmptyTree.DeleteNode 25 0.000114964
+NonEmptyTree.FindNode 24 0.000115106
+TreeAxioms.Axiom1 23 0.000134735
+TreeAxioms.Axiom2 22 0.000156158
+TreeAxioms.Axiom3 18 0.000153157
+HashMap.Ctor 16 0.000423402
 HashMap.Dtor 0 0
-HashMap.Reserved 13 0.000228696
-HashMap.Put 12 0.000232389
-HashMap.Size 11 0.000236544
-HashMap.Capacity 9 0.000357578
-HashMap.Contains 6 0.000565723
-HashMap.Get 2 0.00151551
-HashMap.Pop 1 0.00304883
+HashMap.Reserved 14 0.000176392
+HashMap.Put 13 0.000199733
+HashMap.Size 12 0.000204161
+HashMap.Capacity 10 0.00025188
+HashMap.Contains 7 0.000331383
+HashMap.Get 3 0.000783376
+HashMap.Pop 2 0.00127532
+HashMap.Remove 1 0.00274537
 ---
-NonEmptyGraph.nodes
-NonEmptyGraph.edges
-NonEmptyGraph.addNode
-NonEmptyGraph.addEdge
-NonEmptyGraph.addMultipleEdges
-NonEmptyGraph.getNode
-NonEmptyGraph.containsEdge
-NonEmptyGraph.removeNode
-NonEmptyGraph.removeEdge
-NonEmptyGraph.nodeCount
-NonEmptyGraph.edgeCount
-NonEmptyGraph.nodeDegree
-NonEmptyGraph.graphDegree
-NonEmptyGraph.coloring
-EmptyGraph.addNode
-EmptyGraph.addEdge
-EmptyGraph.addMultipleEdges
-EmptyGraph.removeNode
-EmptyGraph.removeEdge
-EmptyGraph.nodeCount
-EmptyGraph.edgeCount
-EmptyGraph.nodeDegree
-EmptyGraph.graphDegree
