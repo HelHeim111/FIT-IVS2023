@@ -200,14 +200,14 @@ size_t Graph::graphDegree() const{
 
 void Graph::coloring(){
     size_t allColors = graphDegree() + 1;
-    for(auto edge : myEdge) {
-        std::vector<size_t> availableColors;
+    std::vector<size_t> availableColors;
+    for(auto v : myNode) {
         for(int i = 1; i <= allColors; i++) {
             availableColors.push_back(i);
         }
-        if(getNode(edge.a)->color == 0) {
+        if(v->color == 0) {
             for(auto tmpVec : myEdge) {
-                if(tmpVec.a == edge.a) {
+                if(tmpVec.a == v->id) {
                     if(getNode(tmpVec.b)->color != 0) {
                         for(int i = 0; i < availableColors.size(); i++) {
                             if(availableColors[i] == getNode(tmpVec.b)->color) {
@@ -216,8 +216,8 @@ void Graph::coloring(){
                         }
                     }           
                 }
-                if(tmpVec.b == edge.a ) {
-                    if(getNode(tmpVec.a)->color == 0) {
+                if(tmpVec.b == v->id) {
+                    if(getNode(tmpVec.a)->color != 0) {
                         for(int i = 0; i < availableColors.size(); i++) {
                             if(availableColors[i] == getNode(tmpVec.a)->color) {
                                 availableColors.erase(availableColors.begin() + i);
@@ -225,49 +225,10 @@ void Graph::coloring(){
                         }
                     }
                 }
-                for(auto node : myNode) {
-                    if(node == getNode(edge.a)) {
-                        node->color = availableColors[0];
-                        for(int i = 0; i < availableColors.size(); i++) {
-                            if(availableColors[i] == node->color) {
-                                availableColors.erase(availableColors.begin() + i);
-                            }
-                        }
-                    }
-                }
             }
+            v->color = availableColors[0];
         }
-        if(getNode(edge.b)->color == 0) {
-            for(auto tmpVec : myEdge) {
-                if(tmpVec.a == edge.b) {
-                    if(getNode(tmpVec.b)->color != 0) {
-                        for(int i = 0; i < availableColors.size(); i++) {
-                            if(availableColors[i] == getNode(tmpVec.b)->color) {
-                                availableColors.erase(availableColors.begin() + i);
-                            }
-                        }
-                    }           
-                }
-                if(tmpVec.b == edge.b) {
-                    if(getNode(tmpVec.a)->color == 0) {
-                        for(int i = 0; i < availableColors.size(); i++) {
-                            if(availableColors[i] == getNode(tmpVec.a)->color) {
-                                availableColors.erase(availableColors.begin() + i);
-                            }
-                        }
-                    }
-                }
-                for(auto node : myNode) {
-                    if(node == getNode(edge.b)) {
-                        for(int i = 0; i < availableColors.size(); i++) {
-                            if(availableColors[i] == node->color) {
-                                availableColors.erase(availableColors.begin() + i);
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        availableColors.clear();
     }
 }
 
